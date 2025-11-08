@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/:path*",
-        destination: "https://www.techgrity.info/:path*",
+        destination: "https://docs.liquidroyalty.com/:path*",
       },
     ];
   },

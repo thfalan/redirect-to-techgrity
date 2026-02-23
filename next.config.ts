@@ -1,11 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  async rewrites() {
+  async redirects() {
     return [
       {
         source: "/:path*",
-        destination: "https://docs.liquidroyalty.com/:path*",
+        destination: "https://simbank.com/:path*",
+        permanent: true,
       },
     ];
   },
